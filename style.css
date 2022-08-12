@@ -3,6 +3,131 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body{
+    width: 100%;
+    height: 100%;
+    font-family: "Montserrat", "sans serif";
+    background-color: rgb(58, 58, 65);
+    background-image: url("bg-img.jpg");
+    
+}
+
+main{
+    margin-top: 80px;
+    margin-bottom: 60px;
+    margin-left: 37%;
+    margin-right: 36.2%;
+    padding-bottom: 40px;
+    padding-top: 25px;
+    background-color: rgb(233, 196, 34);
+    
+}
+
+header{
+    text-align: center;
+    color: rgb(58, 58, 65);
+}
+#title{
+    font-size: 40px;
+    font-weight: 600;
+}
+#description{
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+#survey-form{
+    width: 100%;
+    margin-top: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+   
+.form-group{
+    margin: 15px;
+    gap: 2;
+    display: flex;
+    flex-direction: column;
+    color: rgb(58, 58, 65);
+    
+    
+}
+
+.role{
+    display: flex;
+}
+
+input, select{
+    margin-top: 5px;
+    border: none;
+    height:35px;
+    padding-left: 10px;
+    border-radius: 5px;
+    outline: none;
+    
+}
+
+label{
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 1px;
+}
+
+.select-role, .remark{
+    margin-bottom: 6px;
+}
+
+select{
+    padding-right: 10px;
+}
+.radio-group{
+    display: flex;
+    deco
+}
+
+[type="radio"]+label{
+    margin-top: 12px;
+    margin-left: 10px;
+    
+}
+.checkbox-group{
+    display: flex;
+}
+
+[type="checkbox"]+label{
+    margin-top: 12px;
+    margin-left: 10px;
+}
+textarea{
+    height: 150px ;
+    border-radius: 10px;
+    outline: none;
+    padding: 10px;
+    border: none;
+}
+  
+#submit{
+    padding-top: 1px;
+    height: 30px;
+    border-radius: 6px;
+    font-size: 18px;
+    color: rgb(58, 58, 65);
+    outline: none;
+    border: none;
+    background-color:rgb(245, 245, 245);
+    cursor: pointer;
+}
+
+#submit:hover{
+    background-color: rgb(9, 55, 107);
+
+}
+
+
+
+/*
 body{
     font-family: "Montserrat", "sans serif";
     width: 100%;
@@ -104,4 +229,5 @@ textarea{
     background-color: rgb(37, 37, 37);
 
 }
+
 
